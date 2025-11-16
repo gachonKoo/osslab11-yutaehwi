@@ -1,3 +1,3 @@
 import sys
 sid = sys.stdin.read().strip()
-print(f"Success {sid}")
+print("Success" if not sid else f"Success {sid}")
