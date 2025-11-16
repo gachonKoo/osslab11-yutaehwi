@@ -1,6 +1,8 @@
-import sys
-sid = sys.stdin.read().strip()
-if sid:
-    print("Success " + sid)
-else:
-    print("Success")
+import math
+from lab11.geo.distance import distance
+
+c = distance(0, 0, 3, 4)
+area = math.pi * 10 * 10
+
+print(f"c = {c}")
+print(f"area = {area}")
