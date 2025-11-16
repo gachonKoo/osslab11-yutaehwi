@@ -1,6 +1,9 @@
 from lab11.geo.area import square_area, triangle_area
 from lab11.geo.distance import distance
 
+
+STUDENT_ID = "202534060"
+
 def test_square():
     assert square_area(4) == 16
 
@@ -14,4 +17,6 @@ if __name__ == "__main__":
     test_square()
     test_triangle()
     test_distance()
-    print("Success")
+
+
+    print(f"Success {STUDENT_ID}")
